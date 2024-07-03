@@ -18,21 +18,21 @@ variables:
   - name: workingDirectory
     value: "$(System.DefaultWorkingDirectory)"
   - name: scriptsPath
-    value: "pipelines/scripts"
+    value: "scripts"
   - name: filePath
     value: "platform"
   - name: identity
     value: "Servent-Landing-Zone"
   - name: terraform_backend_storage_subscription_id
-    value: "c20f6597-abec-4062-8957-c1be529df251"
+    value: "f79a69b8-c7e7-413d-82c9-c7a111fc04b5"
   - name: terraform_backend_storage_rg_name
     value: "rg-terraformstorage-prod-uksouth-001"
   - name: terraform_backend_storage_account_name
-    value: "agritfstateuks001"
+    value: "testfstateuks001"
   - name: terraform_backend_storage_container_name
     value: "az-lz-tfstate"
   - name: terraform_backend_storage_key
-    value: "az-lz-platform-agrimetrics.tfstate"
+    value: "az-lz-platform-test.tfstate"
   - name: system.debug
     value: false
 
