@@ -8,7 +8,7 @@ trigger:
       - main
   paths:
     include:
-      - .gihub/workflows/build.yml
+      - .github/workflows/build.yml
       - platform
 pool:
   name: Azure Pipelines
